@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  femi.mw.rest:
+    image: ${DOCKER_REGISTRY}femimwrest
+    build:
+      context: .
+      dockerfile: Femi.MW.REST/Dockerfile
